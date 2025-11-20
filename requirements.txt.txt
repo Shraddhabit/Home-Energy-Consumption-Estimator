@@ -1,6 +1,4 @@
-#define BLYNK_TEMPLATE_ID "TMPL3twutO8cU"
-#define BLYNK_TEMPLATE_NAME "parking"
-#define BLYNK_AUTH_TOKEN streamlit
+ streamlit
 scikit-learn
 numpy
 pandas
