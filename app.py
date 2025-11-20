@@ -3,7 +3,8 @@ import joblib
 import numpy as np
 
 # Load trained model from Google Drive
-model = joblib.load('/content/drive/MyDrive/CIProject/best_electricity_model.joblib')
+model = joblib.load('best_electricity_model.joblib')
+
 
 st.set_page_config(page_title="Electricity Usage Predictor", page_icon="⚡")
 st.title("🏠 Electricity Usage Prediction App")
