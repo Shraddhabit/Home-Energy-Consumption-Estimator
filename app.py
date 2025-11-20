@@ -2,12 +2,11 @@ import streamlit as st
 import joblib
 import numpy as np
 
-# Load trained model from Google Drive
+# Load trained model (local path — works on Streamlit Cloud)
 model = joblib.load('best_electricity_model.joblib')
 
-
 st.set_page_config(page_title="Electricity Usage Predictor", page_icon="⚡")
-st.title("🏠 Electricity Usage Prediction App")
+st.title("🏠 Home Energy Consumption Estimator")
 st.write("Enter home details below to predict monthly electricity usage:")
 
 # Input fields
